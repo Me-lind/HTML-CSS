@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Online Shopping</title>
+</head>
+<body>
+    <nav>
+        <img src="./logo.jpg" alt="Logo" class="logo">
+        <div class="services">
+        <ul>
+            <li>Home</li>
+            <li>Shop</li>
+            <li>Contact</li>
+            <li>Help</li>
+        </ul>
+        </div>
+        <div class="push">
+            <ul>
+            <li>Account</li>
+            <li><img src="./cart.png" alt="" style="width: 15px; height: 15px;">Cart</li>
+            <li><img src="./profile.jpeg" alt="profile picture"></li>
+        </ul>
+    </div>
+    </nav>
+    <main>
+        <div class="account-details">
+            <div class="progress-bar">
+                <ol>
+                    <li>Account</li>
+                    <li>Shipping</li>
+                    <li>Payments</li>
+                </ol>
+            </div>
+            <div class="main-content">
+                <h1>Account Details</h1>
+                <form action="" method="post">
+                <p>Email Address</p>
+                <input type="email", name="email">
+                <p>Password</p>
+                <input type="password", name="password">
+            </div>
+            <div class="register-login">
+                <a href="">Register for account</a>
+                <button id="button">Login</button>
+            </div>
+            <hr style="color: black;" width="300px">
+            <div class="cancel-shipping">
+                <a href="">Cancel Order</a>
+                <button id="button">Shipping details</button>
+            </div>
+        </form>
+        </div>
+        <div class="order-summary">
+            <h1>Order Summary</h1>
+            <img src="./headphones.jpg" alt="">
+            <div class="description-quantity">
+            <div class="item-info">
+                <p>Sony wireless headphones</p>
+                <p>$320.45</p>
+            </div>
+            <div class="quantity">
+                <button>-</button>
+                <input type="number" value="1" min="1">
+                <button>+</button>
+            </div>
+        </div>
+            <div class="receipt">
+                <p>Gift Card/Discount code</p>
+                <input type="text" name="discount code" id="">
+                <button>Apply</button>
+            </div>
+
+                <div class="totals">
+                    <p>Subtotal: <span>$316.55</span></p>
+                    <p>Tax: <span>$3.45</span></p>
+                    <p>Shipping: <span>Free</span></p>
+                    <p>Total: <span>$320.45</span></p>
+
+                </div>
+        </div>
+    </main>
+</body>
+</html>
