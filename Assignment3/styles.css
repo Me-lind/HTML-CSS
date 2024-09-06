@@ -6,7 +6,6 @@ background-color: rgb(218, 238, 255);
 nav{
 display: flex;
 flex-direction: row;
-margin: 0;
 gap: 5rem;
 }
 nav .logo{
@@ -21,6 +20,7 @@ nav li{
 nav .services{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 nav .push{
     justify-content: flex-end;
@@ -32,31 +32,27 @@ nav li:hover{
     color: red;
     cursor: pointer;
 }
-nav img{
+nav img {
 width: 40px;
 height: 40px;
 border-right: none;
 border-radius: 50px;
 }
 main{
-    margin: 0;
-    padding: 0;
     display: flex;
-flex-direction:row ;
-    justify-content:space-between;
-    gap: 10px;
+    flex-direction:row ;
+    justify-content:space-evenly;
 }
 .account-details{
-    margin-left: 30px;
     border-radius: 20px;
     background-color: #e1eaf2;
-    height: 70vh;
-    width: 50vw;
-    margin-top: 30px;
+    height: fit-content;
+    width: 40vw;
+    margin-top: 10px;
     align-items: center;
     display: flex;
     flex-direction: column;
-    padding: 3%;
+    padding: 20px;
     box-shadow: 0 0 10px rgba(0,0,0,1);
 }
 .progress-bar ol{
@@ -103,7 +99,7 @@ margin-right: 30px;
 }
 .cancel-shipping{
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 15px;
 }
 .cancel-shipping a{
     color: black;
@@ -122,8 +118,7 @@ margin-right: 30px;
     background-color: #e1eaf2;
     height: fit-content;
     width: 35vw;
-    margin-top: 30px;
-    /* align-items: center; */
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     padding: 10px;
